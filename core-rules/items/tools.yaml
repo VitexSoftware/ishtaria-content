@@ -1,0 +1,12 @@
+- kind: core:stone_axe
+  category: tool
+  mass_kg: 1.2
+  durability_uses: 150
+- kind: core:iron_axe
+  category: tool
+  mass_kg: 1.6
+  durability_uses: 1200
+- kind: core:cordage
+  category: raw_material
+  mass_kg: 0.1
+  stack: 50

@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_test:
+	python3 -c "import glob, yaml; [yaml.safe_load(open(f)) for f in glob.glob('core-rules/**/*.yaml', recursive=True)]"

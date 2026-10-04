@@ -1,0 +1,15 @@
+Source: ishtaria-content
+Section: games
+Priority: optional
+Maintainer: Vítězslav Dvořák <cybervitexus@gmail.com>
+Build-Depends: debhelper-compat (= 13), python3, python3-yaml
+Standards-Version: 4.7.0
+Homepage: https://github.com/VitexSoftware/ishtaria-content
+Rules-Requires-Root: no
+
+Package: ishtaria-content
+Architecture: all
+Depends: ${misc:Depends}
+Description: base content pack (core-rules) for Ishtaria worlds
+ Items, recipes, species and biomes of the shared core ruleset that
+ every Ishtaria world understands.

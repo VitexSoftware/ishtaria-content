@@ -1,0 +1,19 @@
+# Base ruleset shared by every Ishtaria world.
+# Worlds federate only when they share the same major version.
+name: core-rules
+version: "1.0"
+namespace: core
+description: >
+  Wild planet start: no buildings, no currency in circulation.
+  Everything is gathered, crafted, bought or bartered.
+categories:
+  - raw_material
+  - food
+  - tool
+  - weapon
+  - clothing
+  - cosmetic
+  - building
+  - currency
+  - quest_item
+  - legendary

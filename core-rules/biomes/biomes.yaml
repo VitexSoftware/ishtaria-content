@@ -1,0 +1,9 @@
+- id: temperate_forest
+  temperature_c: [-5, 25]
+  precipitation_mm_year: [600, 1500]
+- id: grassland
+  temperature_c: [-10, 30]
+  precipitation_mm_year: [250, 750]
+- id: taiga
+  temperature_c: [-30, 18]
+  precipitation_mm_year: [300, 900]

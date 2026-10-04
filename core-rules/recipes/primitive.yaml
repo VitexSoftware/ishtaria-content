@@ -1,0 +1,10 @@
+- id: core:cordage
+  inputs: { core:plant_fiber: 6 }
+  output: { core:cordage: 1 }
+  time_s: 20
+  skill: { crafting: 0 }
+- id: core:stone_axe
+  inputs: { core:wood_log: 1, core:flint: 2, core:cordage: 1 }
+  output: { core:stone_axe: 1 }
+  time_s: 90
+  skill: { crafting: 2 }

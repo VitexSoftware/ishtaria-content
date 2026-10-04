@@ -1,0 +1,12 @@
+# Population parameters for the coarse (cell-level) ecosystem model.
+- kind: core:deer
+  diet: herbivore
+  biomes: [temperate_forest, grassland]
+  density_per_km2: 8
+  growth_rate_year: 0.35
+- kind: core:wolf
+  diet: carnivore
+  prey: [core:deer]
+  biomes: [temperate_forest, taiga]
+  density_per_km2: 0.05
+  growth_rate_year: 0.2
