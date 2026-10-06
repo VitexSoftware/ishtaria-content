@@ -1,5 +1,7 @@
 # ishtaria-content
 
+<img src="https://raw.githubusercontent.com/VitexSoftware/ishtaria-client/main/assets/branding/emblem.png" alt="Ishtaria" width="96">
+
 Base content pack `core-rules`: item kinds, recipes, species and biomes shared by every Ishtaria world. Worlds federate only when they share the major version of this ruleset.
 
 ```
